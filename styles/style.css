@@ -100,12 +100,10 @@ button {background: #c05326; color:white; height:2.8em; border-radius: 4px; bord
 /* Article */
 
 .article {
-  margin-bottom: 2em; display:flex; flex-direction: row; border: 1px solid #dccdc6; padding: 15px;
+  margin-bottom: 2em;  border: 1px solid #dccdc6; padding: 15px; display:flex;
 }
 
-.article__body {}}
 
-}
 
 .article__image {
   object-fit: contain;
@@ -117,6 +115,7 @@ button {background: #c05326; color:white; height:2.8em; border-radius: 4px; bord
   font-size: 1rem;
   font-weight: 700;
 }
+
 
 .article__read-more a {
   font-size: 0.85em;
@@ -137,6 +136,10 @@ button {background: #c05326; color:white; height:2.8em; border-radius: 4px; bord
 .article__read-more:last-child {
   margin-bottom: 0;
 }
+
+.learnmore-section {display:flex; flex-direction:row; flex-flow: wrap; justify-content:space-between;}
+
+.learnmore-section > article { padding: 1em; width: 49%}
 
 /* Footer */
 
